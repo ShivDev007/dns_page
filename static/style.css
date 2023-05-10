@@ -4,7 +4,7 @@
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background-color: #f5f5f5;
+  background-color: #744848;
 }
 
 /* Card styles */
@@ -22,7 +22,7 @@
 /* Card hover animation */
 .card:hover {
   transform: translateY(-10px);
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 8px 16px rgba(85, 7, 7, 0.938);
 }
 
 /* Card titles */
@@ -34,7 +34,7 @@
 
 /* Card paragraphs */
 .card p {
-  color: #555;
+  color: #ffffff;
   font-size: 16px;
   line-height: 1.5;
 }
