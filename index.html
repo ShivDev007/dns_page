@@ -1,24 +1,23 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Card Style Paragraph</title>
-  <link rel="stylesheet" href="styles.css">
+	<title>Card Style Paragraph</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-  <div class="card">
-    <h2>How to Configure a Web Server</h2>
-    <p>
-      Configuring a web server can seem daunting at first, but with the right tools and knowledge, it can be a breeze. One of the most popular web servers is Apache, and it's relatively easy to set up on most operating systems. Here's a basic example of how to install and configure Apache on Ubuntu:
-    </p>
-    <pre>
-      <code>
-        sudo apt-get update
-        sudo apt-get install apache2
-        sudo ufw app list
-        sudo ufw allow 'Apache'
-        sudo systemctl status apache2
-      </code>
-    </pre>
-  </div>
+	<div class="card-container">
+		<div class="card">
+			<h2>Introduction</h2>
+			<p>A web server is software that delivers web pages to web browsers. This software is typically installed on a dedicated computer called a web server. When a user types a URL into their browser, the web server responds by sending the requested page to the user's browser.</p>
+		</div>
+		<div class="card">
+			<h2>Installing a Web Server</h2>
+			<p>To install a web server, you will first need to choose a web server software. Some popular options include Apache, Nginx, and IIS. Once you have chosen your web server software, you will need to install it on a dedicated computer or virtual machine.</p>
+		</div>
+		<div class="card">
+			<h2>Configuring a Web Server</h2>
+			<p>Once your web server software is installed, you will need to configure it to serve your website's content. This typically involves specifying the document root directory and setting up virtual hosts if necessary. You may also need to configure your server's firewall to allow incoming web traffic.</p>
+		</div>
+	</div>
 </body>
 </html>
